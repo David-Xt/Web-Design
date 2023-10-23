@@ -1,0 +1,167 @@
+
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    cursor: pointer;
+}
+.header-main-logo{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+}
+.header-main-logo img{
+    width: 70px;
+    align-self: center;
+}
+.header-main-nav{
+    width: fit-content;
+    height: 100%;
+    margin-left: 20px;
+}
+.header-main-nav ul{
+    list-style: none;
+}
+.header-main-nav li{
+    display: inline;
+    float: left;
+}
+.header-main-nav li a{
+    padding: 0 10px;
+    height: 100vh;
+    line-height: 60px;
+    color: white;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.header-main-nav li a:hover{
+    color: grey;
+}
+.header-main-sm{
+    width: fit-content;
+    height: 100%;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.header-main-sm-fb{
+    background-image: url(Images/Facebook-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-main-sm-fb:hover{
+    background-image: url(Images/Facebook-hover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-main-sm-ig{
+    background-image: url(Images/Instagram-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.header-main-sm-ig:hover{
+    background-image: url(Images/Instagram-hover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.header-main-sm-wa{
+    background-image: url(Images/Whatsapp-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.header-main-sm-wa:hover{
+    background-image: url(Images/Whatsapp-hover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.header-main-sm-yt{
+    background-image: url(Images/youtube-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.header-main-sm-yt:hover{
+    background-image: url(Images/youtube-hover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.wrapper{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+.section-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt-con{
+    width: 100%;
+    height: 100vh;
+}
+.img-con{
+    width: 100%;
+    height: 100vh;
+}
+.img-con img{
+    border-radius: 10%;
+}
+.section-oth{
+    width: 100%;
+}
+.txt-oth{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+}
+.img-oth{
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+}
+.txt-con p{
+    font-size: 16px;
+    font-family:"Roboto";
+    font-weight: 500;
+    line-height: 24px;
+    color: black;
+}

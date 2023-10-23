@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+
+a{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+p{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.work{
+    width: 500px;
+    height: 500px;
+    background-color:brown;
+}
